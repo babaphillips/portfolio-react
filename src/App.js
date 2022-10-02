@@ -1,19 +1,16 @@
-import React from "react";
+import { useState } from "react";
 import "./App.css";
-import About from "./components/About";
-import Nav from "./components/Nav";
-import Portfolio from "./components/Portfolio";
+import Header from "./components/Header";
+import Main from "./pages/Main";
 
 function App() {
+  const [page, setPage] = useState("about");
+
   return (
-    <div>
-      <Nav></Nav>
-      <main>
-        <About></About>
-        <Portfolio></Portfolio>
-      </main>
-      <footer></footer>
-    </div>
+    <>
+      <Header setPage={setPage} />
+      <Main page={page} />
+    </>
   );
 }
 

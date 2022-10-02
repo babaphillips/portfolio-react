@@ -105,7 +105,7 @@ header nav {
 
 header nav a {
   font-size: 20px;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 
 button {
@@ -146,7 +146,7 @@ img {
   text-align: center;
   border-bottom: 3px solid;
   width: 35%;
-  margin: 250px auto 50px auto;
+  /* margin: 250px auto 50px auto; */
 }
 
 .project-name {
