@@ -1,14 +1,14 @@
+import React from "react";
 import "./App.css";
+import About from "./components/About";
 
 function App() {
   return (
-    <main>
-      <Nav />
-      {/* <About />
-      <Portofolio />
-      <Resume />
-      <Contact /> */}
-    </main>
+    <div>
+      <main>
+        <About></About>
+      </main>
+    </div>
   );
 }
 
