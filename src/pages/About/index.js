@@ -3,8 +3,8 @@ import profileImage from "../../assets/IMG_1454.JPG";
 
 function About() {
   return (
-    <section className="my-5">
-      <div className="my-2">
+    <section class="about">
+      <div>
         <img class="me" alt="profile" img src={profileImage} />
         <p>
           Hello there! My name is Amanda Philips, and I am thrilled to be in the
