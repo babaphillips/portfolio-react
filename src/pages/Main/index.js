@@ -1,4 +1,5 @@
 import About from "../About";
+import ContactForm from "../Contact";
 import Portfolio from "../Portfolio";
 
 export default function Main({ page }) {
@@ -7,6 +8,8 @@ export default function Main({ page }) {
       return <About />;
     } else if (page === "portfolio") {
       return <Portfolio />;
+    } else if (page === "contact") {
+      return <ContactForm />;
     }
   }
   return <>{renderPage()}</>;
