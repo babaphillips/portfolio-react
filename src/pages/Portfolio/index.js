@@ -4,11 +4,10 @@ import projectTwoImage from "../../assets/Whatscooking.png";
 
 function Portfolio() {
   return (
-    <section className="my-5">
-      <div className="my-2"></div>
+    <section>
       <h2 class="projects">PROJECTS</h2>
-      <div class="flex-container">
-        <h3 class="project-name">Weather Playlist</h3>
+      <h3 class="project-name">Weather Playlist</h3>
+      <div class="projectsbox">
         <figure class="snip0016">
           <img alt="Project1" img src={projectOneImage} />
           <figcaption>
@@ -25,8 +24,8 @@ function Portfolio() {
           https://github.com/babaphillips/weather-playlist
         </a>
       </div>
-      <div class="flex-container">
-        <h3 class="project-name">What's Cooking?</h3>
+      <h3 class="project-name">What's Cooking?</h3>
+      <div class="projectsbox">
         <figure class="snip0016">
           <img alt="Project2" img src={projectTwoImage} />
           <figcaption>
