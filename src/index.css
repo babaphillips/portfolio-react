@@ -7,10 +7,9 @@ body {
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 16px;
   letter-spacing: 0.1em;
   background: #ffffff;
-  font-family: "Playfair Display", cursive;
 }
 
 h1,
@@ -37,32 +36,6 @@ h3 {
   font-size: 1.75rem;
 }
 
-p {
-  font-size: 1.1rem;
-  margin-top: 0;
-}
-
-header {
-  background: #cccccc;
-  border-bottom: 3px solid #000000;
-  border-top: 3px solid #000000;
-}
-
-header a {
-  color: #000;
-  font-size: 20px;
-}
-
-header nav {
-  margin-top: 25px;
-  width: 100%;
-}
-
-nav ul {
-  list-style-type: none;
-  /* display: inline-block; */
-}
-
 nav li {
   cursor: pointer;
 }
@@ -85,7 +58,7 @@ nav {
 
 .me {
   border-radius: 50%;
-  max-width: 15%;
+  max-width: 12%;
   padding: 5px;
   float: left;
 }
@@ -228,7 +201,7 @@ figure.snip0016:hover figcaption::before {
 /* Effects for Languages Used */
 
 #container {
-  color: #999;
+  color: rgb(1, 0, 0);
   font-size: 32px;
   font-weight: bold;
   padding-top: 200px;
@@ -256,13 +229,13 @@ figure.snip0016:hover figcaption::before {
 }
 
 #flip div div {
-  background: #42c58a;
+  background: #000000;
 }
 #flip div:first-child div {
   background: #4ec7f3;
 }
 #flip div:last-child div {
-  background: #dc143c;
+  background: #0a6b2a;
 }
 
 @keyframes show {
@@ -296,12 +269,15 @@ figure.snip0016:hover figcaption::before {
 
 /* Footer */
 footer {
-  background-color: #f9f5f5;
   color: #0b0c0c;
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  height: 60px;
+  height: 75px;
   text-align: center;
   padding: 10px;
+}
+
+.container {
+  height: 275px;
 }

@@ -1,14 +1,13 @@
-// import titleImage from "../../assets/title.png";
+import titleImage from "../../assets/title1.png";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 
 export default function Header({ setPage }) {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar expand="lg">
       <Container>
-        {/* <img src={titleImage} class="img-fluid w-100" alt="Amanda logo" /> */}
-        <h1>AMANDA PHILLIPS</h1>
+        <img src={titleImage} class="img-fluid w-20" alt="Amanda logo" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
