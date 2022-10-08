@@ -47,18 +47,13 @@ function Portfolio() {
         <figure class="snip0016">
           <img alt="Project1" img src={projectOneImage} />
           <figcaption>
-            <h2>
-              A class project that uses an open API to display the current
-              weather, a Spotify playlist and a gif.
-            </h2>
+            <h2></h2>
             <p>The technologies used in this project are: </p>
-            <a href="https://babaphillips.github.io/weather-playlist/"></a>
+            <a href=""></a>
           </figcaption>
         </figure>
         <br />
-        <a href="https://github.com/babaphillips/weather-playlist" id="link1">
-          https://github.com/babaphillips/weather-playlist
-        </a>
+        <a href="" id="link1"></a>
       </div>
       <h3 class="project-name">E-commerce</h3>
       <div class="projectsbox">
