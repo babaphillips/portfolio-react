@@ -225,6 +225,8 @@ figure.snip0016:hover figcaption::before {
 
 /* End of Portfolio effect */
 
+/* Effects for Languages Used */
+
 #container {
   color: #999;
   font-size: 32px;
@@ -288,4 +290,18 @@ figure.snip0016:hover figcaption::before {
   100% {
     margin-top: -270px;
   }
+}
+
+/* End of effect for languages */
+
+/* Footer */
+footer {
+  background-color: #f9f5f5;
+  color: #0b0c0c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  padding: 10px;
 }
