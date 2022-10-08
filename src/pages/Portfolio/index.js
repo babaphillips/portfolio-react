@@ -41,6 +41,22 @@ function Portfolio() {
         <a href="https://github.com/babaphillips/whats-cooking" id="link2">
           https://github.com/babaphillips/whats-cooking
         </a>
+        <div id="container">
+          Technologies used:
+          <div id="flip">
+            <div>
+              <div>HTML5</div>
+            </div>
+            <div>
+              <div>JAVASCRIPT</div>
+            </div>
+            <div>
+              <div>EXPRESS.JS</div>
+            </div>
+            <div>SEQUELIZE</div>
+          </div>
+          in this project!
+        </div>
       </div>
     </section>
   );
