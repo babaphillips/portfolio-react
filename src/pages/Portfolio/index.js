@@ -105,9 +105,8 @@ function Portfolio() {
           <img alt="Project1" img src={projectSixImage} />
           <figcaption>
             <h2>
-              A project where I builded the back end for an e-commerce site.
-              Took a working Express.js API and configured it to use Sequelize
-              to interact with a MySQL database.
+              A project where I builded a timed coding quiz using Javascript
+              fundamentals.
             </h2>
             <p>
               The technologies used in this project are: HTML, CSS and
