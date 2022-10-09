@@ -3,6 +3,7 @@ import projectOneImage from "../../assets/Weather-playlistfinalscreenshot.png";
 import projectTwoImage from "../../assets/Whatscooking.png";
 import projectThreeImage from "../../assets/employeetracker.png";
 import projectFourImage from "../../assets/socialnetworkapi.png";
+import projectFifthImage from "../../assets/ecommerce.png";
 
 function Portfolio() {
   return (
@@ -76,6 +77,24 @@ function Portfolio() {
               MongoDB and Express.js.
             </p>
             <a href="https://github.com/babaphillips/social-network-api"></a>
+          </figcaption>
+        </figure>
+      </div>
+      <h3 class="project-name">E-Commerce</h3>
+      <div class="projectsbox">
+        <figure class="snip0016">
+          <img alt="Project1" img src={projectFifthImage} />
+          <figcaption>
+            <h2>
+              A project where I builded the back end for an e-commerce site.
+              Took a working Express.js API and configured it to use Sequelize
+              to interact with a MySQL database.
+            </h2>
+            <p>
+              The technologies used in this project are: NPM, Node.js, MySQL,
+              Express.js and Sequelize.
+            </p>
+            <a href="https://github.com/babaphillips/e-commerce"></a>
           </figcaption>
         </figure>
       </div>
