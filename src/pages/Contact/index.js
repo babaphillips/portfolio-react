@@ -1,4 +1,3 @@
-import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
@@ -60,7 +59,7 @@ const ContactForm = () => {
           placeholder="Message…"
           required
         />
-        <Button type="submit" color="green">
+        <Button type="submit" color="black">
           Submit
         </Button>
       </Form>
