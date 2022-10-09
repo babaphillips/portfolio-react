@@ -64,7 +64,7 @@ nav {
 }
 
 .about {
-  padding-top: 150px;
+  padding: 100px 50px 0px 50px;
 }
 
 .projectsbox {
@@ -78,15 +78,21 @@ nav {
   color: #000000;
   text-align: center;
   border-bottom: 3px solid;
-  width: 35%;
+  width: 30%;
   margin: auto;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
 .project-name {
-  font-size: 25px;
+  font-size: 30px;
+  padding-top: 25px;
   text-align: center;
+}
+
+#contact-form {
+  text-align: center;
+  padding-top: 30px;
 }
 
 /* Projects Effect */

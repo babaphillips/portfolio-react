@@ -13,7 +13,10 @@ function About() {
           about her work and enjoys being on a team that explores endless
           possibilities and pushes to innovate creatively—strengths in
           creativity, teamwork, and building projects from ideation to
-          execution.
+          execution. Skills learned : HTML, CSS, Git, Bootstrap, Javascript,
+          jQuery, AJAX, React, APIs, the DOM, JSON, Node, ES6, OOP, Express,
+          MySQL, MVC Paradigm, Sequelize, Testing, PWA, MongoDB, NoSQL, and
+          React.
         </p>
       </div>
     </section>

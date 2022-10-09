@@ -1,28 +1,31 @@
 import React from "react";
 import projectOneImage from "../../assets/Weather-playlistfinalscreenshot.png";
 import projectTwoImage from "../../assets/Whatscooking.png";
+import projectThreeImage from "../../assets/employeetracker.png";
+import projectFourImage from "../../assets/socialnetworkapi.png";
 
 function Portfolio() {
   return (
     <section>
-      <h2 class="projects">PROJECTS</h2>
+      <h2 class="projects">Projects</h2>
       <h3 class="project-name">Weather Playlist</h3>
       <div class="projectsbox">
         <figure class="snip0016">
           <img alt="Project1" img src={projectOneImage} />
           <figcaption>
             <h2>
-              A class project that uses an open API to display the current
-              weather, a Spotify playlist and a gif.
+              A project that uses an open API to display the current weather and
+              displays three Spotify playlists to go with it. On the funnier
+              side, it brings you a meme related to the current weather.
             </h2>
-            <p>The technologies used in this project are: </p>
+            <p>
+              The technologies used in this project are: HTML5, CSS, Javascript
+              and Bulma.
+            </p>
             <a href="https://babaphillips.github.io/weather-playlist/"></a>
           </figcaption>
         </figure>
         <br />
-        <a href="https://github.com/babaphillips/weather-playlist" id="link1">
-          https://github.com/babaphillips/weather-playlist
-        </a>
       </div>
       <h3 class="project-name">What's Cooking?</h3>
       <div class="projectsbox">
@@ -30,84 +33,51 @@ function Portfolio() {
           <img alt="Project2" img src={projectTwoImage} />
           <figcaption>
             <h2>
-              In this group project we are creating a full stack application
-              that can solve a real-world problem.
+              A project that aimed to create a full stack application. An online
+              cookbook recipe for your special recipes!
             </h2>
-            <p>The technologies used in this project are: </p>
+            <p>
+              The technologies used in this project are: HTML5, CSS,
+              TailwindCSS, Javascript, Sequelize, Express and MySQL.{" "}
+            </p>
             <a href="https://babaphillips.github.io/weather-playlist/"></a>
           </figcaption>
         </figure>
-        <br />
-        <a href="https://github.com/babaphillips/whats-cooking" id="link2">
-          https://github.com/babaphillips/whats-cooking
-        </a>
       </div>
       <h3 class="project-name">Employee Tracker</h3>
       <div class="projectsbox">
         <figure class="snip0016">
-          <img alt="Project1" img src={projectOneImage} />
-          <figcaption>
-            <h2></h2>
-            <p>The technologies used in this project are: </p>
-            <a href=""></a>
-          </figcaption>
-        </figure>
-        <br />
-        <a href="" id="link1"></a>
-      </div>
-      <h3 class="project-name">E-commerce</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
-          <img alt="Project1" img src={projectOneImage} />
+          <img alt="Project1" img src={projectThreeImage} />
           <figcaption>
             <h2>
-              A class project that uses an open API to display the current
-              weather, a Spotify playlist and a gif.
+              A command-line application from scratch to manage a company's
+              employee database.
             </h2>
-            <p>The technologies used in this project are: </p>
-            <a href="https://babaphillips.github.io/weather-playlist/"></a>
+            <p>
+              The technologies used in this project are: Javascript, NPM,
+              Node.js and MySQL
+            </p>
+            <a href="https://github.com/babaphillips/employee-tracker"></a>
           </figcaption>
         </figure>
-        <br />
-        <a href="https://github.com/babaphillips/weather-playlist" id="link1">
-          https://github.com/babaphillips/weather-playlist
-        </a>
       </div>
       <h3 class="project-name">Social Network API</h3>
       <div class="projectsbox">
         <figure class="snip0016">
-          <img alt="Project1" img src={projectOneImage} />
+          <img alt="Project1" img src={projectFourImage} />
           <figcaption>
             <h2>
-              A class project that uses an open API to display the current
-              weather, a Spotify playlist and a gif.
+              A project where I builded an API for a social network web
+              application where users can share their thoughts, react to friends
+              thoughts, and create a friend list.
             </h2>
-            <p>The technologies used in this project are: </p>
-            <a href="https://babaphillips.github.io/weather-playlist/"></a>
+            <p>
+              The technologies used in this project are: Javascript, Node.js,
+              MongoDB and Express.js.
+            </p>
+            <a href="https://github.com/babaphillips/social-network-api"></a>
           </figcaption>
         </figure>
-        <br />
-        <a href="https://github.com/babaphillips/weather-playlist" id="link1">
-          https://github.com/babaphillips/weather-playlist
-        </a>
-      </div>
-      <h3 class="project-name">Timed Coding Quiz</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
-          <img alt="Project1" img src={projectOneImage} />
-          <figcaption>
-            <h2>
-              A class project that uses an open API to display the current
-              weather, a Spotify playlist and a gif.
-            </h2>
-            <p>The technologies used in this project are: </p>
-            <a href="https://babaphillips.github.io/weather-playlist/"></a>
-          </figcaption>
-        </figure>
-        <br />
-        <a href="https://github.com/babaphillips/weather-playlist" id="link1">
-          https://github.com/babaphillips/weather-playlist
-        </a>
       </div>
     </section>
   );
