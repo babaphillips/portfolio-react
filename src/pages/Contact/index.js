@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
+import { validateEmail } from "../../utils/helpers";
 
 const SERVICE_ID = "service_78lg0jd";
 const TEMPLATE_ID = "template_e6jwrwi";
@@ -26,8 +27,10 @@ const ContactForm = () => {
         });
       }
     );
+
     e.target.reset();
   };
+
   return (
     <div className="ContactForm">
       <Form onSubmit={handleOnSubmit}>
@@ -36,7 +39,7 @@ const ContactForm = () => {
           control={Input}
           label="Email"
           name="user_email"
-          placeholder="Email…"
+          placeholder="Enter your email address"
           required
           icon="mail"
           iconPosition="left"
@@ -66,4 +69,5 @@ const ContactForm = () => {
     </div>
   );
 };
+
 export default ContactForm;

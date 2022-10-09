@@ -6,6 +6,8 @@ function About() {
     <section class="about">
       <div>
         <img class="me" alt="profile" img src={profileImage} />
+      </div>
+      <div>
         <p>
           Full-stack web developer with a background in logistics. Recently
           earned a certificate in full stack development from the University of
