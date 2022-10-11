@@ -10,7 +10,7 @@ export default function Header({ setPage }) {
         <img src={titleImage} className="img-fluid w-20" alt="Amanda logo" />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="nav">
             <Nav.Link onClick={() => setPage("about")}>About me</Nav.Link>
             <Nav.Link onClick={() => setPage("portfolio")}>Portfolio</Nav.Link>
             <Nav.Link href="https://docs.google.com/document/d/e/2PACX-1vSuyyQ5AyAlOdjr8qbDFnHyl88qAemqk7ydN8umjCaKh6u1cYyG4v2aljRjr8k93LPEVmvReaMLqRy8/pub">

@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
+
 * {
   box-sizing: border-box;
 }
 html,
 body {
   height: 100%;
+  font-family: "Yeseva One", cursive;
 }
 
 .main {
@@ -56,13 +59,19 @@ h3 {
   height: 275px;
 }
 
+.nav {
+  font-size: 20px;
+  font-family: "Yeseva One";
+}
+
 nav li {
   cursor: pointer;
 }
 
 .summary {
-  font-size: 23px;
+  font-size: 25px;
   padding-right: 200px;
+  font-family: "Yeseva One";
 }
 
 .me {
@@ -91,12 +100,14 @@ nav li {
   margin: auto;
   padding-top: 40px;
   padding-bottom: 20px;
+  font-family: "Yeseva One";
 }
 
 .project-name {
   font-size: 30px;
   padding-top: 25px;
   text-align: center;
+  font-family: "Yeseva One";
 }
 
 /* Footer */
@@ -115,6 +126,7 @@ footer {
 /* Projects Effect */
 figure.snip0016 {
   color: rgb(255, 255, 255);
+  font-family: "Yeseva One";
   position: relative;
   overflow: hidden;
   min-width: 900px;
@@ -202,6 +214,7 @@ figure.snip0016:hover figcaption h2 {
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
   color: #ffffff;
+  font-family: "Yeseva One";
 }
 figure.snip0016:hover figcaption p {
   opacity: 0.9;
@@ -225,6 +238,7 @@ figure.snip0016:hover figcaption::before {
   max-width: 300px;
   margin: 20px auto;
   padding-top: 100px;
+  font-family: "Yeseva One";
 }
 
 Form {
