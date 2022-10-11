@@ -1,13 +1,23 @@
 * {
   box-sizing: border-box;
 }
+html,
+body {
+  height: 100%;
+}
+
+.main {
+  flex: 1 0 auto;
+  padding-bottom: 20px;
+}
 
 body {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   font-weight: 600;
   line-height: 1.5;
-  font-size: 16px;
   letter-spacing: 0.1em;
   background: #ffffff;
 }
@@ -36,37 +46,29 @@ h3 {
   font-size: 1.75rem;
 }
 
+/* header container */
+.container {
+  height: 275px;
+}
+
 nav li {
   cursor: pointer;
 }
 
-nav {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.title {
-  position: absolute;
-  /* top: 50%; */
-  left: 0;
-  right: 0;
-  display: block;
-  width: 100%;
-  height: 1000px;
-  margin-top: -50px;
+.summary {
+  font-size: 23px;
+  padding-right: 200px;
 }
 
 .me {
   border-radius: 50%;
-  max-width: 12%;
-  padding: 5px;
-  float: left;
-  margin-right: 20px;
-  margin-top: -60px;
+  max-width: 50%;
+  margin-left: 100px;
 }
 
 .about {
   padding: 100px 50px 0px 50px;
+  display: flex;
 }
 
 .projectsbox {
@@ -199,73 +201,6 @@ figure.snip0016:hover figcaption::before {
 }
 /* End of Portfolio effect */
 
-/* Effects for Languages Used */
-#container {
-  color: rgb(1, 0, 0);
-  font-size: 32px;
-  font-weight: bold;
-  padding-top: 200px;
-  position: fixed;
-  width: 100%;
-  bottom: 45%;
-  display: block;
-}
-
-#flip {
-  height: 50px;
-  overflow: hidden;
-}
-
-#flip > div > div {
-  color: #fff;
-  padding: 2px 12px;
-  height: 45px;
-  margin-bottom: 45px;
-  display: inline-block;
-}
-
-#flip div:first-child {
-  animation: show 5s linear infinite;
-}
-
-#flip div div {
-  background: #000000;
-}
-#flip div:first-child div {
-  background: #4ec7f3;
-}
-#flip div:last-child div {
-  background: #0a6b2a;
-}
-
-@keyframes show {
-  0% {
-    margin-top: -270px;
-  }
-  5% {
-    margin-top: -180px;
-  }
-  33% {
-    margin-top: -180px;
-  }
-  38% {
-    margin-top: -90px;
-  }
-  66% {
-    margin-top: -90px;
-  }
-  71% {
-    margin-top: 0px;
-  }
-  99.99% {
-    margin-top: 0px;
-  }
-  100% {
-    margin-top: -270px;
-  }
-}
-/* End of effect for languages */
-
 /* Contact Form */
 .ContactForm {
   text-align: center;
@@ -282,16 +217,14 @@ Form {
 
 /* Footer */
 footer {
-  color: #0b0c0c;
-  position: fixed;
-  bottom: 0;
+  /* color: #0b0c0c; */
   width: 100%;
-  height: 75px;
+  bottom: 0;
+  position: fixed;
+  height: 65px;
+  flex-shrink: 0;
   text-align: center;
   padding: 10px;
-}
-
-.container {
-  height: 275px;
+  margin-top: -65px;
 }
 /* Footer Ends */

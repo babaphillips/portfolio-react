@@ -9,10 +9,10 @@ import projectSixImage from "../../assets/codingquiz.png";
 function Portfolio() {
   return (
     <section>
-      <h2 class="projects">Projects</h2>
-      <h3 class="project-name">Weather Playlist</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h2 className="projects">Projects</h2>
+      <h3 className="project-name">Weather Playlist</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project1" img src={projectOneImage} />
           <figcaption>
             <h2>
@@ -29,9 +29,9 @@ function Portfolio() {
         </figure>
         <br />
       </div>
-      <h3 class="project-name">What's Cooking?</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h3 className="project-name">What's Cooking?</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project2" img src={projectTwoImage} />
           <figcaption>
             <h2>
@@ -46,9 +46,9 @@ function Portfolio() {
           </figcaption>
         </figure>
       </div>
-      <h3 class="project-name">Employee Tracker</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h3 className="project-name">Employee Tracker</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project1" img src={projectThreeImage} />
           <figcaption>
             <h2>
@@ -63,9 +63,9 @@ function Portfolio() {
           </figcaption>
         </figure>
       </div>
-      <h3 class="project-name">Social Network API</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h3 className="project-name">Social Network API</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project1" img src={projectFourImage} />
           <figcaption>
             <h2>
@@ -81,9 +81,9 @@ function Portfolio() {
           </figcaption>
         </figure>
       </div>
-      <h3 class="project-name">E-Commerce</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h3 className="project-name">E-Commerce</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project1" img src={projectFifthImage} />
           <figcaption>
             <h2>
@@ -99,9 +99,9 @@ function Portfolio() {
           </figcaption>
         </figure>
       </div>
-      <h3 class="project-name">Timed Coding Quiz</h3>
-      <div class="projectsbox">
-        <figure class="snip0016">
+      <h3 className="project-name">Timed Coding Quiz</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
           <img alt="Project1" img src={projectSixImage} />
           <figcaption>
             <h2>

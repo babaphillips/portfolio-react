@@ -3,22 +3,19 @@ import profileImage from "../../assets/IMG_1454.JPG";
 
 function About() {
   return (
-    <section class="about">
+    <section className="about">
       <div>
-        <img class="me" alt="profile" img src={profileImage} />
+        <img className="me" alt="profile" img src={profileImage} />
       </div>
       <div>
-        <p>
-          Full-stack web developer with a background in logistics. Recently
-          earned a certificate in full stack development from the University of
-          Richmond Coding Boot Camp. A problem solver who is very passionate
-          about her work and enjoys being on a team that explores endless
-          possibilities and pushes to innovate creatively—strengths in
-          creativity, teamwork, and building projects from ideation to
-          execution. Skills learned : HTML, CSS, Git, Bootstrap, Javascript,
-          jQuery, AJAX, React, APIs, the DOM, JSON, Node, ES6, OOP, Express,
-          MySQL, MVC Paradigm, Sequelize, Testing, PWA, MongoDB, NoSQL, and
-          React.
+        <p className="summary">
+          Full-stack web developer with a background in logistics and a passion
+          for music. Recently earned a certificate in full stack development
+          from the University of Richmond Coding Boot Camp. A problem solver who
+          is very passionate about her work and enjoys being on a team that
+          explores endless possibilities and pushes to innovate
+          creatively—strengths in creativity, teamwork, and building projects
+          from ideation to execution.
         </p>
       </div>
     </section>

@@ -1,7 +1,6 @@
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
-import { validateEmail } from "../../utils/helpers";
 
 const SERVICE_ID = "service_78lg0jd";
 const TEMPLATE_ID = "template_e6jwrwi";
@@ -49,7 +48,7 @@ const ContactForm = () => {
           control={Input}
           label="Name"
           name="user_name"
-          placeholder="Name…"
+          placeholder="Please enter your full name"
           required
           icon="user circle"
           iconPosition="left"

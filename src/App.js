@@ -1,5 +1,4 @@
 import { useState } from "react";
-import "./App.css";
 import Header from "./components/Header";
 import Main from "./pages/Main";
 import Footer from "./components/Footer";
@@ -12,7 +11,8 @@ function App() {
   return (
     <>
       <Header setPage={setPage} />
-      <Main page={page} />
+      <Main page={page} className="main" />
+
       <Footer />
     </>
   );
