@@ -8,7 +8,7 @@ import projectSixImage from "../../assets/codingquiz.png";
 
 function Portfolio() {
   return (
-    <section>
+    <section className="wrapper">
       <h2 className="projects">Projects</h2>
       <h3 className="project-name">Weather Playlist</h3>
       <div className="projectsbox">

@@ -11,6 +11,11 @@ body {
   padding-bottom: 20px;
 }
 
+.wrapper {
+  min-height: 100%;
+  margin-bottom: -50px;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -93,6 +98,19 @@ nav li {
   padding-top: 25px;
   text-align: center;
 }
+
+/* Footer */
+footer {
+  /* color: #0b0c0c; */
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  height: 65px;
+  flex-shrink: 0;
+  text-align: center;
+  padding: 10px;
+}
+/* Footer Ends */
 
 /* Projects Effect */
 figure.snip0016 {
@@ -208,23 +226,10 @@ figure.snip0016:hover figcaption::before {
   margin: 20px auto;
   padding-top: 100px;
 }
+
 Form {
   border: 1px solid lightgray;
   border-radius: 10px;
   padding: 20px;
 }
 /* Contact Form Ends */
-
-/* Footer */
-footer {
-  /* color: #0b0c0c; */
-  width: 100%;
-  bottom: 0;
-  position: fixed;
-  height: 65px;
-  flex-shrink: 0;
-  text-align: center;
-  padding: 10px;
-  margin-top: -65px;
-}
-/* Footer Ends */
