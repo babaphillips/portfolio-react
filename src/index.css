@@ -54,7 +54,7 @@ h3 {
   font-size: 1.75rem;
 }
 
-/* header container */
+/* header container/ nav section */
 .container {
   height: 275px;
 }
@@ -68,8 +68,11 @@ nav li {
   cursor: pointer;
 }
 
+/* header container/ nav section ends */
+
+/* About Me Section */
 .summary {
-  font-size: 25px;
+  font-size: 20px;
   padding-right: 200px;
   font-family: "Yeseva One";
 }
@@ -84,6 +87,16 @@ nav li {
   padding: 100px 50px 0px 50px;
   display: flex;
 }
+
+.badge {
+  border-radius: 50%;
+  max-width: 50%;
+  margin-left: 100px;
+}
+
+/* About Me Section Ends */
+
+/* Projects Section */
 
 .projectsbox {
   display: flex;
@@ -109,10 +122,11 @@ nav li {
   text-align: center;
   font-family: "Yeseva One";
 }
+/* Projects Section End */
 
 /* Footer */
+
 footer {
-  /* color: #0b0c0c; */
   width: 100%;
   bottom: 0;
   position: fixed;
@@ -121,9 +135,11 @@ footer {
   text-align: center;
   padding: 10px;
 }
+
 /* Footer Ends */
 
 /* Projects Effect */
+
 figure.snip0016 {
   color: rgb(255, 255, 255);
   font-family: "Yeseva One";
@@ -195,6 +211,8 @@ figure.snip0016 p {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
   color: #fcfcfc;
+  font-size: 25px;
+  padding-top: 80px;
 }
 figure.snip0016 a {
   left: 0;
@@ -230,9 +248,11 @@ figure.snip0016:hover figcaption::before {
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
 }
+
 /* End of Portfolio effect */
 
 /* Contact Form */
+
 .ContactForm {
   text-align: center;
   max-width: 300px;
@@ -246,4 +266,65 @@ Form {
   border-radius: 10px;
   padding: 20px;
 }
+
 /* Contact Form Ends */
+
+/* media query for tables and smaller */
+@media screen and (max-width: 768px) {
+  section {
+    padding: 30px 15px;
+  }
+
+  .step h3 {
+    flex: 1 100%;
+    text-align: center;
+  }
+
+  .step-info {
+    flex: 2 100%;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .step-img {
+    flex: 0 32%;
+    margin-right: 0;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+
+  .step-text {
+    flex: 100%;
+  }
+}
+
+/* media query for mobile phones and smaller */
+@media screen and (max-width: 575px) {
+  .container {
+    width: 50%;
+  }
+
+  .section-title {
+    width: 95%;
+  }
+
+  .intro p {
+    width: 100%;
+  }
+
+  .trainer {
+    flex: 0 100%;
+  }
+
+  .contact-info {
+    text-align: center;
+  }
+
+  .contact-info > * {
+    flex: 0 100%;
+  }
+
+  .contact-form {
+    order: 3;
+  }
+}

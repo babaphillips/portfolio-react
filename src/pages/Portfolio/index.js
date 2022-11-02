@@ -5,11 +5,33 @@ import projectThreeImage from "../../assets/employeetracker.png";
 import projectFourImage from "../../assets/socialnetworkapi.png";
 import projectFifthImage from "../../assets/ecommerce.png";
 import projectSixImage from "../../assets/codingquiz.png";
+import projectSevenImage from "../../assets/PC-Cover.png";
 
 function Portfolio() {
   return (
     <section className="wrapper">
       <h2 className="projects">Projects</h2>
+      <h3 className="project-name">Project Choice</h3>
+      <div className="projectsbox">
+        <figure className="snip0016">
+          <img alt="projectchoice" img src={projectSevenImage} />
+          <figcaption>
+            <h2>
+              Project Choice is a single page React Application that provides
+              current information on Abortion Access by state. There is a
+              contact form to get more information and an online shop with
+              branded products available for purchase. All proceeds go the
+              Planned Parenthood.
+            </h2>
+            <p>
+              The technologies used in this project are: HTML5, CSS,
+              TailwindCSS, Javascript, Express.js, Sequelize, Node.js, React,
+              MongoDB and ApolloGraphQL.
+            </p>
+            <a href="https://github.com/JenniferByrnes/project-choice"></a>
+          </figcaption>
+        </figure>
+      </div>
       <h3 className="project-name">Weather Playlist</h3>
       <div className="projectsbox">
         <figure className="snip0016">
@@ -40,7 +62,7 @@ function Portfolio() {
             </h2>
             <p>
               The technologies used in this project are: HTML5, CSS,
-              TailwindCSS, Javascript, Sequelize, Express and MySQL.{" "}
+              TailwindCSS, Javascript, Sequelize, Express and MySQL.
             </p>
             <a href="https://babaphillips.github.io/weather-playlist/"></a>
           </figcaption>
