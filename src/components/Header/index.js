@@ -7,7 +7,11 @@ export default function Header({ setPage }) {
   return (
     <Navbar expand="lg">
       <Container>
-        <img src={titleImage} className="img-fluid w-20" alt="Amanda logo" />
+        <img
+          src={titleImage}
+          className="img-fluid max-width w-20"
+          alt="Amanda logo"
+        />
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav">

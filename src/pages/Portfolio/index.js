@@ -28,7 +28,7 @@ function Portfolio() {
               TailwindCSS, Javascript, Express.js, Sequelize, Node.js, React,
               MongoDB and ApolloGraphQL.
             </p>
-            <a href="https://github.com/JenniferByrnes/project-choice"></a>
+            <a href="https://github.com/babaphillips/projectChoice"></a>
           </figcaption>
         </figure>
       </div>
@@ -64,7 +64,7 @@ function Portfolio() {
               The technologies used in this project are: HTML5, CSS,
               TailwindCSS, Javascript, Sequelize, Express and MySQL.
             </p>
-            <a href="https://babaphillips.github.io/weather-playlist/"></a>
+            <a href="https://rata-whats-cooking.herokuapp.com/"></a>
           </figcaption>
         </figure>
       </div>

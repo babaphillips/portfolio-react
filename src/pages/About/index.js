@@ -5,7 +5,13 @@ function About() {
   return (
     <section className="about">
       <div>
-        <img className="me" alt="profile" img src={profileImage} />
+        <img
+          id="me"
+          className="img-fluid max-width .d-none .d-sm-block .d-md-none"
+          alt="profile"
+          img
+          src={profileImage}
+        />
       </div>
       <div>
         <p className="summary">
