@@ -16,21 +16,19 @@ import Col from "react-bootstrap/Col";
 
 function About() {
   return (
-    <Container fluid className=" mb-5 pb-5 ">
-      <Row className="p-2">
+    <Container className=" mb-5 pb-5">
+      <Row className="p-2 hstack gap-7">
         <Col>
           <img
-            height={400}
-            className="rounded-circle mx-auto d-block"
+            height={300}
+            className="rounded-circle"
             alt="profile"
             img
             src={profileImage}
           />
         </Col>
-      </Row>
-      <Row className="p-2">
         <Col>
-          <p>
+          <p style={{ fontSize: "20px" }}>
             Full-stack web developer with a background in logistics and a
             passion for music. Recently earned a certificate in full stack
             development from the University of Richmond Coding Boot Camp. A
@@ -44,7 +42,7 @@ function About() {
       <Col className="p-5 d-flex justify-content-center">
         <img
           src={html5}
-          className="rounded-circle mx-auto"
+          className="rounded-circle mx-auto "
           height={95}
           alt="html5"
         ></img>

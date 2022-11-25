@@ -85,11 +85,11 @@ function Portfolio() {
             <figcaption>
               <h2>{project.projectCaption}</h2>
               <p>{project.projectLanguages}</p>
-              <a href={project.projectLink}>
-                <span>Deployed Application</span>
-              </a>
             </figcaption>
           </figure>
+          <a href={project.projectLink}>
+            <span>GitHub Repository</span>
+          </a>
         </Row>
       ))}
     </Container>
