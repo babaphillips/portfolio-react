@@ -81,11 +81,13 @@ function Portfolio() {
         <Row className="p-2 projectsbox">
           <h3 className="project-name">{project.projectTitle}</h3>
           <figure className="rounded mx-auto d-block snip0016">
-            <img alt="projectchoice" img src={project.projectImage} />
+            <img alt="Projects" img src={project.projectImage} />
             <figcaption>
               <h2>{project.projectCaption}</h2>
               <p>{project.projectLanguages}</p>
-              <a href={project.projectLink}></a>
+              <a href={project.projectLink}>
+                <span>Deployed Application</span>
+              </a>
             </figcaption>
           </figure>
         </Row>

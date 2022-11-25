@@ -55,9 +55,6 @@ h3 {
 }
 
 /* header container/ nav section */
-.container {
-  height: 275px;
-}
 
 .nav {
   font-size: 20px;
@@ -90,6 +87,12 @@ nav li {
   border-radius: 50%;
   max-width: 50%;
   margin-left: 100px;
+}
+
+a span {
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
 }
 
 /* About Me Section Ends */

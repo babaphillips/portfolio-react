@@ -32,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <Container className="mx-auto">
+    <Container fluid="sm">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id="form-input-control-email"
