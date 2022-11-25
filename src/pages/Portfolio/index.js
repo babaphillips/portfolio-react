@@ -6,13 +6,15 @@ import projectFourImage from "../../assets/socialnetworkapi.png";
 import projectFifthImage from "../../assets/ecommerce.png";
 import projectSixImage from "../../assets/codingquiz.png";
 import projectSevenImage from "../../assets/PC-Cover.png";
+import Container from "react-bootstrap/Container";
+import { Row } from "react-bootstrap";
 
 function Portfolio() {
   return (
-    <section className="wrapper">
+    <Container fluid className="wrapper">
       <h2 className="projects">Projects</h2>
       <h3 className="project-name">Project Choice</h3>
-      <div className="projectsbox">
+      <Row className="p-2 projectsbox">
         <figure className="snip0016">
           <img alt="projectchoice" img src={projectSevenImage} />
           <figcaption>
@@ -31,9 +33,9 @@ function Portfolio() {
             <a href="https://github.com/babaphillips/projectChoice"></a>
           </figcaption>
         </figure>
-      </div>
+      </Row>
       <h3 className="project-name">Weather Playlist</h3>
-      <div className="projectsbox">
+      <Row className="p-2 projectsbox">
         <figure className="snip0016">
           <img alt="Project1" img src={projectOneImage} />
           <figcaption>
@@ -50,9 +52,9 @@ function Portfolio() {
           </figcaption>
         </figure>
         <br />
-      </div>
+      </Row>
       <h3 className="project-name">What's Cooking?</h3>
-      <div className="projectsbox">
+      <Row className="projectsbox">
         <figure className="snip0016">
           <img alt="Project2" img src={projectTwoImage} />
           <figcaption>
@@ -67,9 +69,9 @@ function Portfolio() {
             <a href="https://rata-whats-cooking.herokuapp.com/"></a>
           </figcaption>
         </figure>
-      </div>
+      </Row>
       <h3 className="project-name">Employee Tracker</h3>
-      <div className="projectsbox">
+      <Row className="projectsbox">
         <figure className="snip0016">
           <img alt="Project1" img src={projectThreeImage} />
           <figcaption>
@@ -84,9 +86,9 @@ function Portfolio() {
             <a href="https://github.com/babaphillips/employee-tracker"></a>
           </figcaption>
         </figure>
-      </div>
+      </Row>
       <h3 className="project-name">Social Network API</h3>
-      <div className="projectsbox">
+      <Row className="projectsbox">
         <figure className="snip0016">
           <img alt="Project1" img src={projectFourImage} />
           <figcaption>
@@ -102,9 +104,9 @@ function Portfolio() {
             <a href="https://github.com/babaphillips/social-network-api"></a>
           </figcaption>
         </figure>
-      </div>
+      </Row>
       <h3 className="project-name">E-Commerce</h3>
-      <div className="projectsbox">
+      <Row className="projectsbox">
         <figure className="snip0016">
           <img alt="Project1" img src={projectFifthImage} />
           <figcaption>
@@ -120,9 +122,9 @@ function Portfolio() {
             <a href="https://github.com/babaphillips/e-commerce"></a>
           </figcaption>
         </figure>
-      </div>
+      </Row>
       <h3 className="project-name">Timed Coding Quiz</h3>
-      <div className="projectsbox">
+      <Row className="projectsbox">
         <figure className="snip0016">
           <img alt="Project1" img src={projectSixImage} />
           <figcaption>
@@ -137,8 +139,8 @@ function Portfolio() {
             <a href="https://babaphillips.github.io/timed-codingquiz/"></a>
           </figcaption>
         </figure>
-      </div>
-    </section>
+      </Row>
+    </Container>
   );
 }
 

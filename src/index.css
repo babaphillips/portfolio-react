@@ -77,11 +77,8 @@ nav li {
   font-family: "Yeseva One";
 }
 
-#me {
-  border-radius: 50%;
-  width: 55%;
-  margin-left: 150px;
-  margin-bottom: 170px;
+.me {
+  border-radius: 35em;
 }
 
 .about {
@@ -100,8 +97,6 @@ nav li {
 /* Projects Section */
 
 .projectsbox {
-  display: flex;
-  align-items: center;
   justify-content: center;
 }
 
@@ -142,7 +137,7 @@ footer {
 /* Projects Effect */
 
 figure.snip0016 {
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: "Yeseva One";
   position: relative;
   overflow: hidden;
@@ -150,7 +145,7 @@ figure.snip0016 {
   max-width: 900px;
   max-height: 800px;
   width: 100%;
-  background: #000000;
+  background: #ffffff;
   text-align: center;
 }
 figure.snip0016 * {
@@ -211,7 +206,7 @@ figure.snip0016 p {
   transform: translate3d(0%, 30%, 0);
   -webkit-transition-delay: 0s;
   transition-delay: 0s;
-  color: #fcfcfc;
+  color: #000000;
   font-size: 25px;
   padding-top: 80px;
 }
@@ -221,7 +216,7 @@ figure.snip0016 a {
   top: 0;
   bottom: 0;
   position: absolute;
-  color: #ffffff;
+  color: #000000;
 }
 figure.snip0016:hover img {
   opacity: 0.15;
@@ -232,7 +227,7 @@ figure.snip0016:hover figcaption h2 {
   transform: translate3d(0%, 0%, 0);
   -webkit-transition-delay: 0.4s;
   transition-delay: 0.4s;
-  color: #ffffff;
+  color: #000000;
   font-family: "Yeseva One";
 }
 figure.snip0016:hover figcaption p {
@@ -270,42 +265,3 @@ Form {
 }
 
 /* Contact Form Ends */
-
-/* media query for tables and smaller */
-@media screen and (max-width: 768px) {
-  .container {
-    width: 50%;
-  }
-
-  .me {
-    width: 300%;
-    align-items: center;
-  }
-
-  .summary {
-    padding-bottom: 100px;
-  }
-
-  .social-icon {
-    vertical-align: center;
-  }
-}
-
-/* media query for mobile phones and smaller */
-@media screen and (max-width: 575px) {
-  .container {
-    width: 50%;
-  }
-
-  .me {
-    /* width: 300%; */
-  }
-
-  .summary {
-    padding-bottom: 100px;
-  }
-
-  .social-icon {
-    vertical-align: center;
-  }
-}

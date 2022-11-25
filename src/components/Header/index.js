@@ -6,7 +6,7 @@ import Navbar from "react-bootstrap/Navbar";
 export default function Header({ setPage }) {
   return (
     <Navbar expand="lg">
-      <Container>
+      <Container fluid>
         <img
           src={titleImage}
           className="img-fluid max-width w-20"
