@@ -1,6 +1,7 @@
 import emailjs from "emailjs-com";
 import { Form, Input, TextArea, Button } from "semantic-ui-react";
 import Swal from "sweetalert2";
+import Container from "react-bootstrap/Container";
 
 const SERVICE_ID = "service_78lg0jd";
 const TEMPLATE_ID = "template_e6jwrwi";
@@ -31,7 +32,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="ContactForm">
+    <Container className="mx-auto">
       <Form onSubmit={handleOnSubmit}>
         <Form.Field
           id="form-input-control-email"
@@ -65,7 +66,7 @@ const ContactForm = () => {
           Submit
         </Button>
       </Form>
-    </div>
+    </Container>
   );
 };
 

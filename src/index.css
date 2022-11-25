@@ -96,10 +96,6 @@ nav li {
 
 /* Projects Section */
 
-.projectsbox {
-  justify-content: center;
-}
-
 .projects {
   font-size: 45px;
   color: #000000;
@@ -250,12 +246,7 @@ figure.snip0016:hover figcaption::before {
 /* Contact Form */
 
 .ContactForm {
-  text-align: center;
-  max-width: 300px;
-  margin: 20px auto;
-  padding-top: 50px;
   font-family: "Yeseva One";
-  padding-bottom: 20px;
 }
 
 Form {
