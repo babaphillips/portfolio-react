@@ -15,19 +15,50 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
 function About() {
+  const languagesBadges = [
+    {
+      languageLogo: html5,
+    },
+    {
+      languageLogo: css3,
+    },
+    {
+      languageLogo: github,
+    },
+    {
+      languageLogo: javascript,
+    },
+    {
+      languageLogo: webapi,
+    },
+    {
+      languageLogo: node,
+    },
+    {
+      languageLogo: mySQL,
+    },
+    {
+      languageLogo: express,
+    },
+    {
+      languageLogo: mongoDB,
+    },
+    {
+      languageLogo: react,
+    },
+  ];
   return (
-    <Container className=" mb-5 pb-5">
-      <Row className="p-2 hstack gap-7">
-        <Col>
+    <Container className=" mb-5 ">
+      <Row>
+        <Col md={4} className="d-flex justify-content-center">
           <img
-            height={300}
+            height={330}
             className="rounded-circle"
             alt="profile"
-            img
             src={profileImage}
           />
         </Col>
-        <Col>
+        <Col md={8}>
           <p style={{ fontSize: "20px" }}>
             Full-stack web developer with a background in logistics and a
             passion for music. Recently earned a certificate in full stack
@@ -39,67 +70,17 @@ function About() {
           </p>
         </Col>
       </Row>
-      <Col className="p-5 d-flex justify-content-center">
-        <img
-          src={html5}
-          className="rounded-circle mx-auto "
-          height={95}
-          alt="html5"
-        ></img>
-        <img
-          src={css3}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="css3"
-        ></img>
-        <img
-          src={github}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="github"
-        ></img>
-        <img
-          src={javascript}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="javascript"
-        ></img>
-        <img
-          src={webapi}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="webapi"
-        ></img>
-        <img
-          src={node}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="node"
-        ></img>
-        <img
-          src={express}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="express"
-        ></img>
-        <img
-          src={mySQL}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="mySQL"
-        ></img>
-        <img
-          src={mongoDB}
-          className="rounded-circle mx-auto"
-          height={105}
-          alt="mongoDB"
-        ></img>
-        <img
-          src={react}
-          className="rounded-circle mx-auto"
-          height={95}
-          alt="react"
-        ></img>
+      <Col className="m-2 p-4 d-flex justify-content-center flex-wrap">
+        {languagesBadges.map((logos, i) => (
+          <div key={i} className="m-1">
+            <img
+              src={logos.languageLogo}
+              className="rounded-circle mx-auto "
+              height={95}
+              alt="html5"
+            />
+          </div>
+        ))}
       </Col>
     </Container>
   );

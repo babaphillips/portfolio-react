@@ -1,7 +1,7 @@
 import emailjs from "emailjs-com";
-import { Form, Input, TextArea, Button } from "semantic-ui-react";
+// import { Form } from "semantic-ui-react";
 import Swal from "sweetalert2";
-import Container from "react-bootstrap/Container";
+import { Container, Form, Button } from "react-bootstrap";
 
 const SERVICE_ID = "service_78lg0jd";
 const TEMPLATE_ID = "template_e6jwrwi";
@@ -32,11 +32,10 @@ const ContactForm = () => {
   };
 
   return (
-    <Container fluid="sm">
-      <Form onSubmit={handleOnSubmit}>
-        <Form.Field
+    <Container fluid>
+      <Form className="mx-5 p-2" onSubmit={handleOnSubmit}>
+        {/* <Form.Label
           id="form-input-control-email"
-          control={Input}
           label="Email"
           name="user_email"
           placeholder="Enter your email address"
@@ -44,9 +43,9 @@ const ContactForm = () => {
           icon="mail"
           iconPosition="left"
         />
-        <Form.Field
+        
+        <Form.Control
           id="form-input-control-last-name"
-          control={Input}
           label="Name"
           name="user_name"
           placeholder="Please enter your full name"
@@ -56,12 +55,39 @@ const ContactForm = () => {
         />
         <Form.Field
           id="form-textarea-control-opinion"
-          control={TextArea}
           label="Message"
           name="user_message"
           placeholder="Message…"
           required
-        />
+        /> */}
+        <Form.Group className="mb-3">
+          <Form.Label>Email</Form.Label>
+          <Form.Control
+            type="email"
+            placeholder="Enter Email"
+            name="user_email"
+          />
+        </Form.Group>
+
+        <Form.Group className="mb-3">
+          <Form.Label>Username</Form.Label>
+          <Form.Control
+            type="text"
+            placeholder="Enter Username"
+            name="user_name"
+          />
+        </Form.Group>
+
+        <Form.Group className="mb-3">
+          <Form.Label>Message</Form.Label>
+          <Form.Control
+            as="textarea"
+            rows={6}
+            placeholder="Whats on your mind"
+            name="user_message"
+          />
+        </Form.Group>
+
         <Button type="submit" color="black">
           Submit
         </Button>
