@@ -65,7 +65,7 @@ const ContactForm = () => {
           />
         </Form.Group>
 
-        <Button type="submit" color="black">
+        <Button type="submit" className="btn btn-dark">
           Submit
         </Button>
       </Form>

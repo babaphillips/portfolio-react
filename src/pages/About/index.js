@@ -10,6 +10,7 @@ import react from "../../assets/react.png";
 import mongoDB from "../../assets/mongodb.png";
 import node from "../../assets/node.png";
 import mySQL from "../../assets/mysql.png";
+import apollographQL from "../../assets/apollograph.png";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -45,6 +46,9 @@ function About() {
     },
     {
       languageLogo: react,
+    },
+    {
+      languageLogo: apollographQL,
     },
   ];
   return (

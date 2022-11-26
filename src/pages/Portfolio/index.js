@@ -7,7 +7,6 @@ import projectFifthImage from "../../assets/ecommerce.png";
 import projectSixImage from "../../assets/codingquiz.png";
 import projectSevenImage from "../../assets/PC-Cover.png";
 import Container from "react-bootstrap/Container";
-// import { Row } from "react-bootstrap";
 
 function Portfolio() {
   const projectsArray = [
@@ -76,9 +75,9 @@ function Portfolio() {
   ];
   return (
     <Container fluid className="mb-5">
-      <h2 className="projects">Projects</h2>
+      <h2 className="projects ">Projects</h2>
       {projectsArray.map((project, i) => (
-        <a key={i} href={project.projectLink} className="p-2 projectsbox">
+        <a key={i} href={project.projectLink} className="p-2">
           <h3 className="project-name">{project.projectTitle}</h3>
           <figure className="rounded mx-auto d-block snip0016">
             <img alt="Projects" src={project.projectImage} />
@@ -87,9 +86,6 @@ function Portfolio() {
               <p>{project.projectLanguages}</p>
             </figcaption>
           </figure>
-          {/* <a href={project.projectLink}>
-            <span>GitHub Repository</span>
-          </a> */}
         </a>
       ))}
     </Container>
