@@ -75,7 +75,7 @@ function Portfolio() {
     },
   ];
   return (
-    <Container fluid className="wrapper">
+    <Container fluid className="mb-5">
       <h2 className="projects">Projects</h2>
       {projectsArray.map((project, i) => (
         <a key={i} href={project.projectLink} className="p-2 projectsbox">

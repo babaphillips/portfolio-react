@@ -77,7 +77,7 @@ function About() {
               src={logos.languageLogo}
               className="rounded-circle mx-auto "
               height={95}
-              alt="html5"
+              alt="logos"
             />
           </div>
         ))}

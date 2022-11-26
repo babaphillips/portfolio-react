@@ -252,6 +252,10 @@ figure.snip0016:hover figcaption::before {
   font-family: "Yeseva One";
 }
 
+.contact {
+  padding-bottom: 35px;
+}
+
 Form {
   border: 1px solid lightgray;
   border-radius: 10px;

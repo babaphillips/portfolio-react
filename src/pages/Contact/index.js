@@ -32,37 +32,12 @@ const ContactForm = () => {
   };
 
   return (
-    <Container fluid>
+    <Container fluid className="mb-5 text-center flex-wrap contact">
       <Form className="mx-5 p-2" onSubmit={handleOnSubmit}>
-        {/* <Form.Label
-          id="form-input-control-email"
-          label="Email"
-          name="user_email"
-          placeholder="Enter your email address"
-          required
-          icon="mail"
-          iconPosition="left"
-        />
-        
-        <Form.Control
-          id="form-input-control-last-name"
-          label="Name"
-          name="user_name"
-          placeholder="Please enter your full name"
-          required
-          icon="user circle"
-          iconPosition="left"
-        />
-        <Form.Field
-          id="form-textarea-control-opinion"
-          label="Message"
-          name="user_message"
-          placeholder="Message…"
-          required
-        /> */}
         <Form.Group className="mb-3">
           <Form.Label>Email</Form.Label>
           <Form.Control
+            className="text-center"
             type="email"
             placeholder="Enter Email"
             name="user_email"
@@ -72,6 +47,7 @@ const ContactForm = () => {
         <Form.Group className="mb-3">
           <Form.Label>Username</Form.Label>
           <Form.Control
+            className="text-center"
             type="text"
             placeholder="Enter Username"
             name="user_name"
@@ -81,8 +57,9 @@ const ContactForm = () => {
         <Form.Group className="mb-3">
           <Form.Label>Message</Form.Label>
           <Form.Control
+            className="text-center"
             as="textarea"
-            rows={6}
+            rows={4}
             placeholder="Whats on your mind"
             name="user_message"
           />
